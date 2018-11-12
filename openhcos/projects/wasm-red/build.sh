@@ -2,7 +2,7 @@
 #set -x
 
 cd "$(dirname "$0")"
-WASM_FILE="wasm_hot.wasm"
+WASM_FILE="wasm_red.wasm"
 BINDGEN_DIR="bindout"
 
 init-rust() {
