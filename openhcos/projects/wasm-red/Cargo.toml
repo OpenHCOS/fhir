@@ -13,3 +13,7 @@ wasm-bindgen = "0.2"
 # rand panic when use wasm-bindgen · Issue #616 · rust-random/rand  https://github.com/rust-random/rand/issues/616
 # https://github.com/alexcrichton/wbg-rand
 wbg-rand = "0.4"
+protobuf = "2"
+
+[build-dependencies]
+protoc-rust = "2.0"
